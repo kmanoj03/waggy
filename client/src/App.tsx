@@ -427,89 +427,83 @@ function App() {
       {/* Testimonials Section */}
       <section className="py-20 px-6 bg-white">
         <div className="max-w-7xl mx-auto">
-          <AnimatedSection>
-            <h2 className="text-4xl font-bold text-center mb-4">
-              What Pet Parents Say
-            </h2>
-            <p className="text-gray-600 text-center mb-12">
-              Join thousands of happy pet owners who trust Waggy for all their
-              pet care needs.
-            </p>
+          {/* <AnimatedSection> */}
+          <h2 className="text-4xl font-bold text-center mb-4">
+            What Pet Parents Say
+          </h2>
+          <p className="text-gray-600 text-center mb-12">
+            Join thousands of happy pet owners who trust Waggy for all their pet
+            care needs.
+          </p>
 
-            <div className="grid md:grid-cols-3 gap-8">
-              <AnimatedTestimonial delay={0.1}>
-                <div className="bg-white p-6 rounded-xl shadow-lg">
-                  <div className="flex items-center mb-4">
-                    <img
-                      src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg"
-                      alt="Priya Singh"
-                      className="w-12 h-12 rounded-full object-cover"
-                    />
-                    <div className="ml-4">
-                      <h3 className="font-semibold">Priya Singh</h3>
-                      <p className="text-gray-600 text-sm">Dog Parent</p>
-                    </div>
+          <div className="grid md:grid-cols-3 gap-8">
+            <AnimatedTestimonial delay={0.1}>
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <div className="flex items-center mb-4">
+                  <img
+                    src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg"
+                    alt="Priya Singh"
+                    className="w-12 h-12 rounded-full object-cover"
+                  />
+                  <div className="ml-4">
+                    <h3 className="font-semibold">Priya Singh</h3>
+                    <p className="text-gray-600 text-sm">Dog Parent</p>
                   </div>
-                  <div className="flex text-[#F4844C] mb-4">
-                    {"★".repeat(5)}
-                  </div>
-                  <p className="text-gray-600">
-                    "The 17-minute delivery saved my puppy when he needed urgent
-                    medication. The vet consultation was professional and
-                    thorough. Waggy has made pet care so convenient!"
-                  </p>
                 </div>
-              </AnimatedTestimonial>
+                <div className="flex text-[#F4844C] mb-4">{"★".repeat(5)}</div>
+                <p className="text-gray-600">
+                  "The 17-minute delivery saved my puppy when he needed urgent
+                  medication. The vet consultation was professional and
+                  thorough. Waggy has made pet care so convenient!"
+                </p>
+              </div>
+            </AnimatedTestimonial>
 
-              <AnimatedTestimonial delay={0.2}>
-                <div className="bg-white p-6 rounded-xl shadow-lg">
-                  <div className="flex items-center mb-4">
-                    <img
-                      src="https://images.pexels.com/photos/2726111/pexels-photo-2726111.jpeg"
-                      alt="Rahul Mehta"
-                      className="w-12 h-12 rounded-full object-cover"
-                    />
-                    <div className="ml-4">
-                      <h3 className="font-semibold">Rahul Mehta</h3>
-                      <p className="text-gray-600 text-sm">Cat Parent</p>
-                    </div>
+            <AnimatedTestimonial delay={0.2}>
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <div className="flex items-center mb-4">
+                  <img
+                    src="https://images.pexels.com/photos/2726111/pexels-photo-2726111.jpeg"
+                    alt="Rahul Mehta"
+                    className="w-12 h-12 rounded-full object-cover"
+                  />
+                  <div className="ml-4">
+                    <h3 className="font-semibold">Rahul Mehta</h3>
+                    <p className="text-gray-600 text-sm">Cat Parent</p>
                   </div>
-                  <div className="flex text-[#F4844C] mb-4">
-                    {"★".repeat(5)}
-                  </div>
-                  <p className="text-gray-600">
-                    "The grooming service was exceptional. The groomer was
-                    patient with my anxious cat and did a wonderful job. The
-                    prices are much better than what I was paying before!"
-                  </p>
                 </div>
-              </AnimatedTestimonial>
+                <div className="flex text-[#F4844C] mb-4">{"★".repeat(5)}</div>
+                <p className="text-gray-600">
+                  "The grooming service was exceptional. The groomer was patient
+                  with my anxious cat and did a wonderful job. The prices are
+                  much better than what I was paying before!"
+                </p>
+              </div>
+            </AnimatedTestimonial>
 
-              <AnimatedTestimonial delay={0.3}>
-                <div className="bg-white p-6 rounded-xl shadow-lg">
-                  <div className="flex items-center mb-4">
-                    <img
-                      src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg"
-                      alt="Anita Sharma"
-                      className="w-12 h-12 rounded-full object-cover"
-                    />
-                    <div className="ml-4">
-                      <h3 className="font-semibold">Anita Sharma</h3>
-                      <p className="text-gray-600 text-sm">Farm Owner</p>
-                    </div>
+            <AnimatedTestimonial delay={0.3}>
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <div className="flex items-center mb-4">
+                  <img
+                    src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg"
+                    alt="Anita Sharma"
+                    className="w-12 h-12 rounded-full object-cover"
+                  />
+                  <div className="ml-4">
+                    <h3 className="font-semibold">Anita Sharma</h3>
+                    <p className="text-gray-600 text-sm">Farm Owner</p>
                   </div>
-                  <div className="flex text-[#F4844C] mb-4">
-                    {"★".repeat(5)}
-                  </div>
-                  <p className="text-gray-600">
-                    "Finally, a service that understands farm animals too! The
-                    veterinary care for my goats was excellent, and the regular
-                    feed delivery has made my life so much easier."
-                  </p>
                 </div>
-              </AnimatedTestimonial>
-            </div>
-          </AnimatedSection>
+                <div className="flex text-[#F4844C] mb-4">{"★".repeat(5)}</div>
+                <p className="text-gray-600">
+                  "Finally, a service that understands farm animals too! The
+                  veterinary care for my goats was excellent, and the regular
+                  feed delivery has made my life so much easier."
+                </p>
+              </div>
+            </AnimatedTestimonial>
+          </div>
+          {/* </AnimatedSection> */}
         </div>
       </section>
 
